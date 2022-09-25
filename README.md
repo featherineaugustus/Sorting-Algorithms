@@ -6,9 +6,9 @@ List of sorting algorithms:
 1. Bubble sort (✓)
 2. Selection sort (✓)
 3. Insertion sort (✓)
-4. Quick sort
+4. Quick sort (✓)
 5. Merge sort (✓)
-6. Heap sort
+6. Heap sort (✓)
 7. In-place merge sort
 8. Intro sort
 9. Block sort
