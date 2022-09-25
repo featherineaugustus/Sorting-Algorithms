@@ -6,3 +6,7 @@ List of sorting algorithms:
 1. Bubble sort
 2. Selection sort
 3. Insertion sort
+
+
+Source:
+https://www.geeksforgeeks.org/sorting-algorithms-in-python/
