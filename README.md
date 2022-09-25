@@ -9,7 +9,7 @@ List of sorting algorithms:
 4. Quick sort (✓)
 5. Merge sort (✓)
 6. Heap sort (✓)
-7. In-place merge sort
+7. In-place merge sort (✓)
 8. Intro sort
 9. Block sort
 10. Tim sort
