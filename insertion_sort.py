@@ -17,6 +17,8 @@ def insertion_sort(arr):
    print(arr)
    return None 
             
-# Example to test the above code
-arr = [2, 1, 10, 23, 0, 200, 4, 6, 3]
-insertion_sort(arr)
+# Driver Code
+if __name__ == '__main__':
+    # Example to test the above code
+    arr = [2, 1, 10, 23, 0, 200, 4, 6, 3]
+    insertion_sort(arr)
