@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Merge Sort algorithm in Python
+
 def merge_sort(arr):
     if len(arr) > 1:
  
@@ -38,4 +39,3 @@ def merge_sort(arr):
             k += 1
             
     print(arr)
-    return None

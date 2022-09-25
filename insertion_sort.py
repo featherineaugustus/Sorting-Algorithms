@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Insertion Sort algorithm in Python
+
 def insertion_sort(arr): 
    
    for i in range(1, len(arr)): 
@@ -15,5 +16,4 @@ def insertion_sort(arr):
        arr[j + 1] = a 
          
    print(arr)
-   return None 
         

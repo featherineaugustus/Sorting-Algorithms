@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Bubble Sort Algorithm Implementation
+
 def bubble_sort(arr):
      
     n = len(arr) 
@@ -11,5 +12,4 @@ def bubble_sort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
                 
     print(arr)
-    return None
                 

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Selection Sort algorithm in Python
+
 def selection_sort(arr):
      
     n = len(arr)
@@ -15,4 +16,3 @@ def selection_sort(arr):
         arr[s], arr[min_idx] = arr[min_idx], arr[s]
         
     print(arr)
-    return None
