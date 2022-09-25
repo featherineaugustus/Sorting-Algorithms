@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Merge Sort algorithm in Python
-def mergeSort(arr):
+def merge_sort(arr):
     if len(arr) > 1:
  
          # Finding the mid of the array
@@ -11,8 +11,8 @@ def mergeSort(arr):
         R = arr[mid:]
  
         # Merge sort
-        mergeSort(L)
-        mergeSort(R)
+        merge_sort(L)
+        merge_sort(R)
  
         i = j = k = 0
  
@@ -36,11 +36,6 @@ def mergeSort(arr):
             arr[k] = R[j]
             j += 1
             k += 1
+            
     print(arr)
     return None
-
-# Driver Code
-if __name__ == '__main__':
-    # Example to test the above code
-    arr = [2, 1, 10, 23, 0, 200, 4, 6, 3]
-    mergeSort(arr)

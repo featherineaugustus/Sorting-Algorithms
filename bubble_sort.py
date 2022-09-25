@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Bubble Sort Algorithm Implementation
-def bubbleSort(arr):
+def bubble_sort(arr):
      
     n = len(arr) 
     
@@ -12,10 +12,4 @@ def bubbleSort(arr):
                 
     print(arr)
     return None
-                 
-# Driver Code
-if __name__ == '__main__':
-    # Example to test the above code
-    arr = [2, 1, 10, 23, 0, 200, 4, 6, 3]
-    bubbleSort(arr)
- 
+                

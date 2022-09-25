@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Selection Sort algorithm in Python
-def selectionSort(arr):
+def selection_sort(arr):
      
     n = len(arr)
     
@@ -16,9 +16,3 @@ def selectionSort(arr):
         
     print(arr)
     return None
- 
-# Driver Code
-if __name__ == '__main__':
-    # Example to test the above code
-    arr = [2, 1, 10, 23, 0, 200, 4, 6, 3]
-    selectionSort(arr)
