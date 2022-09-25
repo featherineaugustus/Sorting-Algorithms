@@ -31,3 +31,4 @@ List of sorting algorithms:
 
 Source:
 https://www.geeksforgeeks.org/sorting-algorithms-in-python/
+https://en.wikipedia.org/wiki/Sorting_algorithm
